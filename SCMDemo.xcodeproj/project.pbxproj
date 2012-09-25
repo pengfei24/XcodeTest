@@ -16,6 +16,8 @@
 		A12189D01611591000839286 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A12189CF1611591000839286 /* Default.png */; };
 		A12189D21611591000839286 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A12189D11611591000839286 /* Default@2x.png */; };
 		A12189D41611591000839286 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A12189D31611591000839286 /* Default-568h@2x.png */; };
+		A1A184E51611697A0046E8A0 /* PFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A184E31611697A0046E8A0 /* PFRootViewController.m */; };
+		A1A184E61611697A0046E8A0 /* PFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A184E41611697A0046E8A0 /* PFRootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		A12189CF1611591000839286 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A12189D11611591000839286 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A12189D31611591000839286 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1A184E21611697A0046E8A0 /* PFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFRootViewController.h; path = ../PFRootViewController.h; sourceTree = "<group>"; };
+		A1A184E31611697A0046E8A0 /* PFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PFRootViewController.m; path = ../PFRootViewController.m; sourceTree = "<group>"; };
+		A1A184E41611697A0046E8A0 /* PFRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PFRootViewController.xib; path = ../PFRootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				A12189CC1611590F00839286 /* PFAppDelegate.h */,
 				A12189CD1611590F00839286 /* PFAppDelegate.m */,
+				A1A184E21611697A0046E8A0 /* PFRootViewController.h */,
+				A1A184E31611697A0046E8A0 /* PFRootViewController.m */,
+				A1A184E41611697A0046E8A0 /* PFRootViewController.xib */,
 				A12189C41611590F00839286 /* Supporting Files */,
 			);
 			path = SCMDemo;
@@ -155,6 +163,7 @@
 				A12189D01611591000839286 /* Default.png in Resources */,
 				A12189D21611591000839286 /* Default@2x.png in Resources */,
 				A12189D41611591000839286 /* Default-568h@2x.png in Resources */,
+				A1A184E61611697A0046E8A0 /* PFRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				A12189CA1611590F00839286 /* main.m in Sources */,
 				A12189CE1611590F00839286 /* PFAppDelegate.m in Sources */,
+				A1A184E51611697A0046E8A0 /* PFRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +284,7 @@
 				A12189D91611591000839286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
